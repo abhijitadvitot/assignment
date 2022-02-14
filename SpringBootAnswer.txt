@@ -1,0 +1,291 @@
+Practical Question
+
+Q1. Please create one Spring core project with Employee and Laptop bean injected using setter and constructor both
+Ans:Done.
+     ProjectName:   SpringCoreExamples
+--------------------------------------------------------------------------------------
+
+Q2. Please create OneToOne relationship using hibernate?
+Ans: Done
+  ProjectName:OneToOneHibernateEHomwWork
+-----------------------------------------
+
+Q3. Please create one singleton and thread safe class example.
+Done:Project Name:
+SpringPRojectAnnotation
+
+----------------------------------------------------
+Q4. Please show the difference between singleton and prototype scope in spring.
+Project Name:
+SpringPRojectAnnotation
+----------------------------------
+
+Q5. Please create OneToMany bidirectional relationship with SpringBoot Data JPA?
+
+Ans:Done:
+ Project: OneManyBidiretional
+
+------------------------------------------------------------
+
+
+Questiuons Answers:
+
+------------------------------------------------------------
+Q1. What are the major features in different versions of Spring Framework?
+Ans:
+Dependency injection, events, resources,
+ validation, data binding, type conversion, spel, aop. Transactions, DAO support, JDBC, ORM, XML.
+ ----------------------------------------------------
+Q2. What is a Spring Framework?
+Ans:
+Spring Framework is a Java platform that provides comprehensive infrastructure support
+ for developing Java applications.
+ Spring enables you to build applications from plain old Java objects (POJOs) 
+and to apply enterprise services non-invasively to POJOs.
+-------------------------------------------------------------------------------
+
+Q3. List the advantages of Spring Framework
+Ans:
+Light Weight:
+         Spring is a lightweight framework because of its POJO implementation.
+         It does not force the programmer to inherit any class and implement any interface.
+          With the help of Spring, we can enable powerful, scalable applications using POJOs (Plain Old Java Object).
+
+Flexible:
+           It provides flexible libraries trusted by developers all over the world. The developer can choose either XML or Java-based annotations for configuration options. The IoC and DI features provide the foundation for a wide-ranging set of features and functionality. It makes the job simpler.
+  
+Loose Coupling:
+           Spring applications are loosely coupled because of dependency injection. 
+           It handles injecting dependent components without a component knowing where they came from.
+ 
+Powerful Abstraction:
+           It provides a powerful abstraction to JEE specifications such as JMS, JDBC, JPA, and JTA.
+
+Declarative Support:
+           It provides declarative support for caching, validation, transaction, and formatting.
+
+Portable: 
+           We can use server-side in web/EJB app, client-side in swing app business logic is completely portable.
+
+Cross-cutting behavior:
+           Resource management is a cross-cutting concern, easy to copy and paste everywhere.
+
+Configuration: 
+
+           It provides a consistent way of configuring everything, separate configuration from application logic, varying configuration.
+Lifecycle:
+
+           Responsible for managing all your application components, particularly those in middle-tier container sees components through well-defined lifecycle: init(), destroy().
+
+Dependency Injection:
+
+       The use of dependency injection makes the easy development of JavaEE.
+
+------------------
+
+Q4. What are the different features of Spring Framework?
+Ans:
+IOC (Inversion of Control) Container. ...
+Support for aspect-oriented programing. ...
+Data access framework. ...
+Transaction management framework. ...
+Spring MVC framework. ...
+Spring web service. ...
+Spring test frameworks. ...
+Core container.
+---------------------------
+
+Q5. How many modules are there in Spring Framework and what are they?
+
+Ans:The Spring Framework consists of features organized into about 20 modules. 
+These modules are grouped into
+Core Container
+Data Access/Integration
+Web
+AOP (Aspect Oriented Programming)
+Instrumentation
+Test
+---------------------
+Q6. What is a Spring configuration file?
+Ans:
+  Spring configuration file is a file with . xml extension and the file contains information
+  about the classes and interfaces and their dependencies.
+  Using this file the spring container controls the life cycle of a spring bean and also Dependency Injection is achieved.
+-----------------------------------------
+
+Q7. What are the different components of a Spring application?
+Ans:The Spring framework consists of seven modules
+ These modules are Spring Core, Spring AOP, Spring Web MVC, Spring DAO, Spring ORM, Spring context, and Spring Web flow
+-----------------------------
+Q8. What are the various ways of using Spring Framework?
+Ans:
+ Using Spring.io initializer 
+ Using Eclipse or any similar IDE and Maven simple project
+ Using Spring Tool Suite
+ Using CLI
+---------------------------
+
+Q9. What is Spring IOC Container?
+Ans:
+Spring IoC Container is the core of Spring Framework.
+ It creates the objects, configures and assembles their dependencies, manages their entire life cycle.
+ The Container uses Dependency Injection(DI) to manage the components that make up the application
+-----------------------------------------------
+Q10. What do you mean by Dependency Injection?
+Ans:
+Dependency Injection is a fundamental aspect of the Spring framework, 
+through which the Spring container “injects” objects into other objects or “dependencies”.
+ Simply put, this allows for loose coupling of components and moves the responsibility 
+of managing components onto the container.
+
+----------------------------------------------------------
+MCQ Answers:
+---------------------------------------------------------
+Q1. What are different types of bean injection
+A. constructor and setter
+B. constructor and getter
+C. getter and setter
+D. getter setter and constructor
+Ans. A. constructor and setter
+-------------
+Q2. Which of the following is true?
+A. ApplicationContext implements BeanFactory
+B. ApplicationContext extends BeanFactory
+C. BeanFactory extends ApplicationContect
+D. BeanFactory impliments ApplicationContext
+Ans. B. ApplicationContext extends BeanFactory
+-----------
+Q3. What are different Autowire types..?
+A. byName, byType, destructor and autodetect
+B. byName, byMethod, constructor and autodetect
+C. byName, byType, constructor and autocorrect
+D. byName, byType, constructor and autodetect
+Ans. D. byName, byType, constructor and autodetect
+-----------
+Q4. IOC or Dependency injection is a
+A. DesignPattern
+B. Framework
+C. Java Module
+D. ORM Framework
+Ans.A. DesignPattern
+-------------------
+Q5. Which exception class is related to all the exceptions that are thrown in spring applications?
+A. ArrayIndexOutOfBound
+B. DataAccessException
+C. NullPointerException
+D. SpringException
+Ans.B. DataAccessException
+----------------
+Q6. Controller in Spring is....
+A. a abstract class
+B. concrete class
+C. final class
+D. an interface
+Ans.D. an interface
+--------------
+Q7. Which of the following is not a spring module?
+A. AOP
+B. O/R Integration
+C. Spring MVCD. HTML/JSP
+Ans.D. HTML/JSP
+---------------------
+Q8. Bean defined in spring framewoork are default
+A. Abstract
+B. Singleton
+C. Final
+D. initialized
+Ans.B. Singleton
+----------------
+Q9. Select the right statement about referring a Spring configuration file inside the package 
+com.example.myapp in the below example?
+ApplicationContect context = new ClassPathXmlApplicationContext("classpath:/com.example.myapp.confic.xml");
+A. the classpath: prefix could be omit
+B. Package name with dot is not wel formateed using the dot character
+C. The slash character preeceding com.example could be omit
+D. All of the Above
+Ans. D. All of the Above
+---------------
+Q10. What are the main advantage of using interfaces when designing business services?Select
+ answer.A. mocking or stubbing the service
+B. Be able to us the spring auto-injection
+C. can do dependency checking
+D. All of the above
+Ans. A. mocking or stubbing the service
+---------------------
+Q11. Given the spring configuration file, which are the correct statements?
+A. The p name space has to be declared
+B. Bean is is bankServiceImpl
+C. The BankServiceImpl references a NationalBank ean
+D. All of the Above
+Ans.A. The p name space has to be declared
+-------------------------------------
+Q12. Given the following Spring configuration file, what is the correct answer:
+A. the first declared bean MyServiceImpl is missing and id must be named myService
+B. The Second declared bean JpaDao is missing an id must be named jpaDao
+C. Answer 1 and 2 are both right
+D. Anser 1 and 2 are both wrong
+
+Ans. B. The Second declared bean JpaDao is missing an id must be named jpaDao
+--------------------
+Q13 How is named the bean that is defined in following configuration class. Select a single answer.
+@Configurationpublic class ApplicationConfig{@Autowiredprivate DataSource dataSource;
+@BeanClientRepository clientRepository()
+{clientRepository accountRepository = new JpaClientRepository();
+accountRepository.setDataSource(datasource);
+return accountRepository;}}
+A. JpaClientRepository
+B. clientRepository
+C. Two beans are defined : a data source and a repository
+D. All of the above
+Ans. B. clientRepositor
+---------------------
+Q14 - Which of the following is correct assertion about spring?
+A) - Spring enables developers to develop enterprise-class applications using POJOs.
+B) - Spring is organized in a modular fashion.
+C) - Testing an application written with spring is simple because environment-dependent code is moved into this framework.
+D) - All of above.
+Ans- D) All of the above
+---------------------
+Q15. The concept of an endpoint in web services is much like that of a controller in web applications.
+a) True
+b) False
+c) None of the above
+d)All of the above
+Ans-True
+-----------------
+Q16. An alternative to Spring HibernateTemplate is:
+-a) HibernateContext
+b) Hibernate contextual sessions
+c) All of the mentioned
+d) None of the mentioned
+Ans- a) HibernateContext
+----------------
+Q17. DAO methods must be made transactional.
+a) True
+b) False
+c) None of the above
+d) All of the above
+Ans- a) True
+------------------------
+Q18. Annotation to find a transaction and then fail, complaining that no Hibernate session been bound to the thread.
+a) @Transaction
+b) @Transactional
+c) @Transactions
+d) None of the mentioned
+Ans- b) @Transactional
+--------------------------
+Q19. Class used to have full access to the Spring context’s life cycle machinery and dependency injection.
+A. DelegatingFilterProxy
+B. WebApplicationContextUtils.getRequiredWeb()
+C. WebApplicationUtils.getRequiredWebApplicationContext()
+D. None of the mentioned
+Ans- A. DelegatingFilterProxy
+---------------------------------------
+20. What is Front controller pattern in spring?
+(A) Dispatcher servlet
+(B) Web.xml
+(C) Spring.xml
+(D) Controller.java Any Spring controller used in MVC
+Ans- (A) Dispatcher servlet
+
+
