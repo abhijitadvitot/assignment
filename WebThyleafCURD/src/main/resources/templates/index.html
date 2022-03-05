@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"> 
+<head>
+<meta charset="ISO-8859-1">
+<title th:utext="${titleOfPage}">Insert title here</title>
+</head>
+<body>
+ Home Page
+ <a th:href="@{/index}">sample </a>
+
+ <a th:href="@{/list}">List Of Records</a>
+ <a th:href="@{/add}">Adding the Record</a>
+
+</body>
+</html>
